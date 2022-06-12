@@ -2,7 +2,7 @@
 
 The component is built using React.js and fontAwesome.
 
-To view the working example, CLICK HERE: <a href="https://christopherparke.github.io/interactive-rating-component/" target="_blank">https://christopherparke.github.io/interactive-rating-component/</a>
+To view the working example, CLICK HERE: <a href='https://christopherparke.github.io/interactive-rating-component/' target='_blank'>https://christopherparke.github.io/interactive-rating-component/</a>
 
 This project is the solution to a challenge on [frontendmentor.io](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI).
 
