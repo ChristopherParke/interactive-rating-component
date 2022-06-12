@@ -55,7 +55,8 @@
   }
   
   .numberActive {
-      border: 1px solid hsl(25, 97%, 53%);
+    border: 1px solid hsl(25, 97%, 53%);
+    cursor: pointer;
   }
     
   .number:hover {
