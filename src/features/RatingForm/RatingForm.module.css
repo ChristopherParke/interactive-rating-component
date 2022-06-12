@@ -1,0 +1,84 @@
+@font-face {
+    font-family: Overpass;
+    src: url(https://fonts.google.com/specimen/Overpass);
+  }
+  
+  @import url("https://fonts.googleapis.com/css2?family=Overpass&family=Roboto:wght@100&display=swap");
+  
+  .how {
+    font-family: "Overpass", sans-serif;
+    font-weight: 400;
+    padding-left: 25px;
+    font-size: 25px;
+    letter-spacing: 1px;
+  }
+  
+  .p {
+    font-size: 15px;
+    font-family: "Overpass";
+    color: hsl(217, 12%, 63%);
+    margin-bottom: 1.5rem;
+    padding-left: 25px;
+    padding-right: 25px;
+    line-height: 1.45rem;
+  }
+
+  .starContainer {
+    padding-left: 21px;
+    margin-top: 10px;
+  }
+
+  .starContainer > * {
+    padding: 0.75rem;
+    background-color: hsl(213, 19%, 22%);
+    border-radius: 50%;
+    color: hsl(25, 97%, 53%);
+    font-size: 0.75rem;
+  }
+  
+  .numberContainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+  }
+  
+  .number,
+  .numberActive {
+    text-align: center;
+    background-color: hsl(213, 19%, 22%);
+    border-radius: 50%;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    color: hsl(217, 12%, 63%);
+    border: 1px solid rgba(0,0,0,0)
+  }
+  
+  .numberActive {
+      border: 1px solid hsl(25, 97%, 53%);
+  }
+    
+  .number:hover {
+    cursor: pointer;
+    background-color: hsl(213, 19%, 28%);
+  }
+  
+  .buttonContainer {
+    text-align: center;
+  }
+  
+  .button {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(25, 97%, 53%);
+    width: 90%;
+    padding: 0.75rem;
+    border-radius: 50px;
+    font-family: Overpass;
+    border-color: rgba(0, 0, 0, 0);
+    letter-spacing: 2px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+      background-color: hsl(25, 97%, 58%);
+  }
